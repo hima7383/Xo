@@ -1,3 +1,39 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="VS">VS</string>
+    <string name="Music">Music</string>
+    <string name="Player1name">Player one name</string>
+    <string name="Player2name">Player two name</string>
+    <string name="Start">Start</string>
+    <string name="Clicksound">Click sound</string>
+    <string name="VSAI">Play vs Ai</string>
+    <string name="VSPlayer">Play vs Friend</string>
+    <string name="Logout">Logout</string>
+    <string name="Ok">Ok</string>
+    <string name="Cancel">Cancel</string>
+    <string name="restartwarning">You need to restart the app for the changes to take effect.</string>
+    <string name="Restart">Restart</string>
+    <string name="NotNow">NotNow</string>
+    <string name="Logintoast">Login successful</string>
+    <string name="InvalidLogintoast">Invalid username or password</string>
+    <string name="Emptyfield">Username and Password are required</string>
+    <string name="Register">Register</string>
+    <string name="RegisterSuc">Registration successful</string>
+    <string name="InvalidRegisterSuc">User already exists</string>
+    <string name="Settings">Settings</string>
+
+
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Arabic</item>
+
+    </string-array>
+
+
 </resources>

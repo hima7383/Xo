@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Connexion</string>
+    <string name="Username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+    <string name="Register">Inscription</string>
+    <string name="VS">VS</string>
+    <string name="Music">Musique</string>
+    <string name="Clicksound">Son du clic</string>
+    <string name="Player1name">Nom du joueur un</string>
+    <string name="Player2name">Nom du joueur deux</string>
+    <string name="Start">Démarrer</string>
+    <string name="VSAI">Jouer contre IA</string>
+    <string name="VSPlayer">Jouer contre un ami</string>
+    <string name="Logout">Déconnexion</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Annuler</string>
+    <string name="restartwarning">Vous devez redémarrer l\'application pour que les modifications prennent effet.</string>
+    <string name="Restart">Redémarrer</string>
+    <string name="NotNow">Pas maintenant</string>
+    <string name="Logintoast">Connexion réussie</string>
+    <string name="InvalidLogintoast">Nom d\'utilisateur ou mot de passe invalide</string>
+    <string name="Emptyfield">Le nom d\'utilisateur et le mot de passe sont requis</string>
+    <string name="RegisterSuc">Inscription réussie</string>
+    <string name="InvalidRegisterSuc">L\'utilisateur existe déjà</string>
+    <string name="Settings">Paramètres</string>
+
+
+</resources>

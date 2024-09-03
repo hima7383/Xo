@@ -13,7 +13,22 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Alertbox"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerNameAi"
+            android:exported="false" />
+        <activity
+            android:name=".PlayerNames"
+            android:exported="false" />
+        <activity
+            android:name=".Gamemode"
+            android:exported="false" />
+        <activity
+            android:name=".TheGame"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

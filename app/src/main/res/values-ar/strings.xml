@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="Username">اسم المستخدم</string>
+    <string name="password">كلمه المرور</string>
+    <string name="Register">مستخدم جديد</string>
+    <string name="VS">ضد</string>
+    <string name="Music">الموسيقي</string>
+    <string name="Clicksound">صوت الضغط</string>
+    <string name="Player1name">اسم اللاعب الأول</string>
+    <string name="Player2name">اسم اللاعب الثاني</string>
+    <string name="Start">ابدأ</string>
+    <string name="VSAI">العب ضد الذكاء الاصطناعي</string>
+    <string name="VSPlayer">العب ضد صديق</string>
+    <string name="Logout">تسجيل الخروج</string>
+    <string name="Ok">موافق</string>
+    <string name="Cancel">إلغاء</string>
+    <string name="restartwarning">يجب عليك إعادة تشغيل التطبيق لتصبح التغييرات سارية المفعول.</string>
+    <string name="Restart">إعادة تشغيل</string>
+    <string name="NotNow">ليس الآن</string>
+    <string name="Logintoast">تسجيل الدخول ناجح</string>
+    <string name="InvalidLogintoast">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="Emptyfield">اسم المستخدم وكلمة المرور مطلوبان</string>
+    <string name="RegisterSuc">تم التسجيل بنجاح</string>
+    <string name="InvalidRegisterSuc">المستخدم موجود بالفعل</string>
+    <string name="Settings">الإعدادات</string>
+
+
+
+</resources>
