@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mysplahsscreenblur"
+    tools:context=".Gamemode">
+
+
+    <ImageView
+        android:id="@+id/settings_icon"
+        android:layout_width="65dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/settingspic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Aigame"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="#25ECECEC"
+        android:text="@string/VSAI"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Humangame"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="420dp"
+        android:backgroundTint="#25ECECEC"
+        android:text="@string/VSPlayer"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

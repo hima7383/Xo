@@ -1,0 +1,78 @@
+<!-- res/layout/dialog_settings.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog_background"
+    android:elevation="4dp">
+
+    <!-- Music Icon -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Settings"
+        android:layout_gravity="center"
+        android:textColor="#C83535"
+        android:textStyle="bold"
+        android:textSize="30sp"
+    />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:id="@+id/icon_music"
+            android:src="@drawable/music"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+
+
+            android:contentDescription="Music" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="@string/Music" />
+    </LinearLayout>
+
+    <!-- Sound Icon -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+        <ImageView
+            android:id="@+id/icon_sound"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/speaker"
+
+            android:contentDescription="Sound" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:text="@string/Clicksound" />
+    </LinearLayout>
+
+    <!-- Language Dropdown -->
+    <Spinner
+        android:id="@+id/spinner_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#C83535"
+        android:text="@string/Logout" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="Username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="Register">Registrarse</string>
+    <string name="VS">VS</string>
+    <string name="Music">Música</string>
+    <string name="Clicksound">Sonido de clic</string>
+    <string name="Player1name">Nombre del jugador uno</string>
+    <string name="Player2name">Nombre del jugador dos</string>
+    <string name="Start">Iniciar</string>
+    <string name="VSAI">Jugar contra IA</string>
+    <string name="VSPlayer">Jugar contra amigo</string>
+    <string name="Logout">Cerrar sesión</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancelar</string>
+    <string name="restartwarning">Debe reiniciar la aplicación para que los cambios tengan efecto.</string>
+    <string name="Restart">Reiniciar</string>
+    <string name="NotNow">No ahora</string>
+    <string name="Logintoast">Inicio de sesión exitoso</string>
+    <string name="InvalidLogintoast">Nombre de usuario o contraseña inválidos</string>
+    <string name="Emptyfield">Nombre de usuario y contraseña son obligatorios</string>
+    <string name="RegisterSuc">Registro exitoso</string>
+    <string name="InvalidRegisterSuc">El usuario ya existe</string>
+    <string name="Settings">Ajustes</string>
+
+
+
+</resources>

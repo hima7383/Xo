@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Anmelden</string>
+    <string name="Username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="Register">Registrieren</string>
+    <string name="VS">VS</string>
+    <string name="Music">Musik</string>
+    <string name="Clicksound">Klicksound</string>
+    <string name="Player1name">Name von Spieler eins</string>
+    <string name="Player2name">Name von Spieler zwei</string>
+    <string name="Start">Start</string>
+    <string name="VSAI">Gegen KI spielen</string>
+    <string name="VSPlayer">Gegen Freund spielen</string>
+    <string name="Logout">Abmelden</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Abbrechen</string>
+    <string name="restartwarning">Sie müssen die App neu starten, damit die Änderungen wirksam werden.</string>
+    <string name="Restart">Neu starten</string>
+    <string name="NotNow">Nicht jetzt</string>
+    <string name="Logintoast">Anmeldung erfolgreich</string>
+    <string name="InvalidLogintoast">Ungültiger Benutzername oder Passwort</string>
+    <string name="Emptyfield">Benutzername und Passwort sind erforderlich</string>
+    <string name="RegisterSuc">Registrierung erfolgreich</string>
+    <string name="InvalidRegisterSuc">Benutzer existiert bereits</string>
+    <string name="Settings">Einstellungen</string>
+
+
+
+</resources>

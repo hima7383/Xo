@@ -1,0 +1,27 @@
+<!-- res/drawable/grid_cell_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Outer Glow Layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+
+                android:width="12dp"
+                android:color="#0000FF" /> <!-- Neon blue for the outer glow -->
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+    <!-- Inner Bright Line -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="2dp"
+                android:color="#00FFFF" /> <!-- Bright cyan blue for the inner line -->
+            <corners android:radius="2dp" />
+        </shape>
+    </item>
+
+</layer-list>

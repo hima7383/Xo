@@ -1,0 +1,17 @@
+<!-- res/drawable/neon_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="45"
+                android:startColor="#7B1FA2"/><!-- Darker Purple -->
+            android:endColor="#9C27B0" <!-- Lighter Purple -->
+            android:type="linear" />
+        </shape>
+    </item>
+    <item android:left="20dp" android:right="20dp" android:top="20dp" android:bottom="20dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#80000000" /> <!-- Semi-transparent overlay -->
+        </shape>
+    </item>
+</layer-list>
